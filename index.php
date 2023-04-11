@@ -40,6 +40,7 @@ var_dump($_GET)
             <div class="col-auto">
                 <button type="submit" class="btn btn-primary mb-3">Invia</button>
             </div>
+            <h4><?php echo randomPassword($_GET['length'])?></h4>
         </form>
     </div>
 </body>
